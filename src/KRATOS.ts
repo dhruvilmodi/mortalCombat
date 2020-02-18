@@ -47,6 +47,9 @@ class Kratos implements DigiPet{
     
 
     //DO THIS:  make a defend function that will return the users Armor
+    defend() {
+        return this.defenseCharacteristics;
+    }
     
 
     //DO THIS:  make an attack function that will return a random OffensiveFood weapon
