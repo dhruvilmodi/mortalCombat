@@ -27,7 +27,7 @@ class Kratos implements DigiPet{
         console.log(`my name is ${this.tamName}`);
 
         //DO THIS:  use 'this' and foods to make an array of OffensiveFoods
-        this.food = {
+        this.foods = {
             "OffensiveFoods": [ 
                 "Pav Bhaji , 4",
                 "Bhel , 6",
@@ -55,7 +55,9 @@ class Kratos implements DigiPet{
     
 
     //DO THIS:  make an attack function that will return a random OffensiveFood weapon
-    
+    attack(){
+        return Math.random(this.foods);
+    }
 
     //DO THIS:  make a takeDamage function that takes in a number and reduces hp
     takeDamage() {
