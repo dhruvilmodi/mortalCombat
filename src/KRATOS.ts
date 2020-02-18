@@ -1,9 +1,8 @@
 import DigiPet from './DigiPet';
-
 //DO THIS:  import Armor
-
+import Armor from './Armor';
 //DO THIS:  import OffensiveFood
-
+import OffensiveFood from './OffensiveFood';
 //DO THIS:change the name of the fighter to one of your own choosing. Make it cool
 
 
@@ -48,4 +47,4 @@ class Kratos implements DigiPet{
 }
 
 //DO THIS:  change FighterA to your fighters cool class name
-export default FighterA;
+export default Kratos;
