@@ -60,7 +60,9 @@ class Kratos implements DigiPet{
     }
 
     //DO THIS:  make a takeDamage function that takes in a number and reduces hp
-    
+    takeDamage(damage){
+        return (this.hp - damage);
+    }
 
     //DO THIS:  make a getHP function that will return the users current hp
     
