@@ -21,7 +21,7 @@ class Kratos implements DigiPet{
     foods : OffensiveFood[];
 
     //DO THIS: have your constructor take in tamName which will be your fighters name in the ring
-    constructor(tamName){
+    constructor(tamName:string){
         this.tamName = tamName;
         this.hp = 60;
         console.log(`my name is ${this.tamName}`);
@@ -43,29 +43,29 @@ class Kratos implements DigiPet{
 
 
     //DO THIS:  make a function that will return your fighters name
-    fighters(){
+    getFighterName():string{
         return this.tamName;
     }
 
     //DO THIS:  make a defend function that will return the users Armor
-    defend() {
+    defend():Armor {
         return this.defenseCharacteristics;
     }
     
 
     //DO THIS:  make an attack function that will return a random OffensiveFood weapon
-    attack(){
-        return Math.random(this.foods);
+    attack():OffensiveFood{
+        return this.foods[Math.floor(Math.random() * this.foods.length)];
     }
 
     //DO THIS:  make a takeDamage function that takes in a number and reduces hp
 
-    takeDamage(damage){
-        return (this.hp - damage);
+    takeDamage(damage: number):void{
+        this.hp -= damage;
     }
 
     //DO THIS:  make a getHP function that will return the users current hp
-    getHP(){
+    getHP():number{
         return this.hp;
     }
 }
