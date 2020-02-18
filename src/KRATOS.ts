@@ -10,14 +10,13 @@ class Kratos implements DigiPet{
     //DO THIS:  you'll need to define tamName, hp
     tamName : string;
     hp : number;
-    
     /*
     DO THIS: make armor for your fighter.  They are strong against what they have most of 3 caterogies:
         -fruit(strong against fruit, weak against grain)
         -meat(strong against meat, weak against fruit)
         -grain(strong against grain, weak against meat)
     */
-
+    
     //DO THIS:  declare an array called foods that is made of OffensiveFood weapons
     
 

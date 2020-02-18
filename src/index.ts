@@ -1,5 +1,5 @@
 import Arena from './Arena';
-import FighterA from './KRATOS';
+import FighterA from './Kratos';
 
 let bert = new FighterA("Bert Bertocimus");
 let fred = new FighterA("Fredacious Fredicus");
