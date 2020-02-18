@@ -38,9 +38,9 @@ class Kratos implements DigiPet{
                 "Apple , 4",
                 "Double Apple , 8",
                 "Pineapple , 5",
-                "Pizza , 5",
-            ],
-        } 
+                "Pizza , 5"
+            ]
+        }
     }
 
     //DO THIS:  make a function that will return your fighters name
