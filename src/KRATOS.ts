@@ -8,8 +8,8 @@ import OffensiveFood from './OffensiveFood';
 
 class Kratos implements DigiPet{
     //DO THIS:  you'll need to define tamName, hp
-    this.tamName;
-    this.hp;
+    let tamName : string;
+    let hp : number;
     
     /*
     DO THIS: make armor for your fighter.  They are strong against what they have most of 3 caterogies:
