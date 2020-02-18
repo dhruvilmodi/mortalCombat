@@ -65,7 +65,9 @@ class Kratos implements DigiPet{
     }
 
     //DO THIS:  make a getHP function that will return the users current hp
-    
+    getHP(){
+        
+    }
 }
 
 //DO THIS:  change FighterA to your fighters cool class name
