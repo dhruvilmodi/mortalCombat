@@ -27,21 +27,20 @@ class Kratos implements DigiPet{
         console.log(`my name is ${this.tamName}`);
 
         //DO THIS:  use 'this' and foods to make an array of OffensiveFoods
-        this.foods = {
-            "OffensiveFoods": [ 
-                "Pav Bhaji , 4",
-                "Bhel , 6",
-                "Vadapav , 9",
-                "Sandwich , 2",
-                "Spinach , 10",
-                "Batakavada , 7",
-                "Apple , 4",
-                "Double Apple , 8",
-                "Pineapple , 5",
-                "Pizza , 5"
-            ]
-        }
+        this.foods = [
+            {foodName: "Bhel", foodCat: "grain", damage:6},
+            {foodName: "Bhel", foodCat: "grain", damage:6},
+            {foodName: "Bhel", foodCat: "grain", damage:6},
+            {foodName: "Bhel", foodCat: "grain", damage:6},
+            {foodName: "Bhel", foodCat: "grain", damage:6},
+            {foodName: "Bhel", foodCat: "grain", damage:6},
+            {foodName: "Bhel", foodCat: "grain", damage:6},
+            {foodName: "Bhel", foodCat: "grain", damage:6},
+            {foodName: "Bhel", foodCat: "grain", damage:6},
+            {foodName: "Bhel", foodCat: "grain", damage:6},
+        ]
     }
+
 
     //DO THIS:  make a function that will return your fighters name
     fighters(){
