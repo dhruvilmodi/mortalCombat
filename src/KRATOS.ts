@@ -10,6 +10,8 @@ class Kratos implements DigiPet{
     //DO THIS:  you'll need to define tamName, hp
     tamName : string;
     hp : number;
+    
+    
     /*
     DO THIS: make armor for your fighter.  They are strong against what they have most of 3 caterogies:
         -fruit(strong against fruit, weak against grain)
@@ -27,7 +29,9 @@ class Kratos implements DigiPet{
         console.log(`my name is ${this.tamName}`);
 
         //DO THIS:  use 'this' and foods to make an array of OffensiveFoods
-        
+        this.food ={
+            
+        } 
     }
 
     //DO THIS:  make a function that will return your fighters name
