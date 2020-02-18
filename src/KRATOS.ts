@@ -8,7 +8,8 @@ import OffensiveFood from './OffensiveFood';
 
 class Kratos implements DigiPet{
     //DO THIS:  you'll need to define tamName, hp
-
+    this.tamName;
+    this.hp;
     
     /*
     DO THIS: make armor for your fighter.  They are strong against what they have most of 3 caterogies:
@@ -27,7 +28,7 @@ class Kratos implements DigiPet{
         console.log(`my name is ${this.tamName}`);
 
         //DO THIS:  use 'this' and foods to make an array of OffensiveFoods
-        this.OffensiveFoods 
+        
     }
 
     //DO THIS:  make a function that will return your fighters name
