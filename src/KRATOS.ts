@@ -7,7 +7,7 @@ import DigiPet from './DigiPet';
 //DO THIS:change the name of the fighter to one of your own choosing. Make it cool
 
 
-class FighterA implements DigiPet{
+class Kratos implements DigiPet{
     //DO THIS:  you'll need to define tamName, hp
     
     
