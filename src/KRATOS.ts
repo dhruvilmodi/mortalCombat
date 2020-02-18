@@ -29,15 +29,15 @@ class Kratos implements DigiPet{
         //DO THIS:  use 'this' and foods to make an array of OffensiveFoods
         this.foods = [
             {foodName: "Bhel", foodCat: "grain", damage:6},
-            {foodName: "Bhel", foodCat: "grain", damage:6},
-            {foodName: "Bhel", foodCat: "grain", damage:6},
-            {foodName: "Bhel", foodCat: "grain", damage:6},
-            {foodName: "Bhel", foodCat: "grain", damage:6},
-            {foodName: "Bhel", foodCat: "grain", damage:6},
-            {foodName: "Bhel", foodCat: "grain", damage:6},
-            {foodName: "Bhel", foodCat: "grain", damage:6},
-            {foodName: "Bhel", foodCat: "grain", damage:6},
-            {foodName: "Bhel", foodCat: "grain", damage:6},
+            {foodName: "Sandwich", foodCat: "grain", damage:3},
+            {foodName: "Vadapav", foodCat: "meat", damage:2},
+            {foodName: "Sukhdi", foodCat: "grain", damage:3},
+            {foodName: "Bhaji Pav", foodCat: "grain", damage:3},
+            {foodName: "Chole", foodCat: "meat", damage:3},
+            {foodName: "Cherry", foodCat: "meat", damage:10},
+            {foodName: "Mango", foodCat: "grain", damage:12},
+            {foodName: "Apple", foodCat: "fruit", damage:10},
+            {foodName: "Pineapple", foodCat: "fruit", damage:8},
         ]
     }
 
@@ -59,6 +59,7 @@ class Kratos implements DigiPet{
     }
 
     //DO THIS:  make a takeDamage function that takes in a number and reduces hp
+
     takeDamage(damage){
         return (this.hp - damage);
     }
