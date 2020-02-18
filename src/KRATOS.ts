@@ -16,7 +16,7 @@ class Kratos implements DigiPet{
         -meat(strong against meat, weak against fruit)
         -grain(strong against grain, weak against meat)
     */
-    armor : string;
+    defenseCharacteristics : Armor = {strongAgainst:"fruit", weakAgainst: "grain"};
     //DO THIS:  declare an array called foods that is made of OffensiveFood weapons
     
 
