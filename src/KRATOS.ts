@@ -18,7 +18,7 @@ class Kratos implements DigiPet{
     */
     defenseCharacteristics : Armor = {strongAgainst:"fruit", weakAgainst: "grain"};
     //DO THIS:  declare an array called foods that is made of OffensiveFood weapons
-    
+    foods : OffensiveFood[];
 
     //DO THIS: have your constructor take in tamName which will be your fighters name in the ring
     constructor(tamName){
