@@ -44,7 +44,9 @@ class Kratos implements DigiPet{
     }
 
     //DO THIS:  make a function that will return your fighters name
-    
+    fighters(){
+        return this.tamName;
+    }
 
     //DO THIS:  make a defend function that will return the users Armor
     defend() {
