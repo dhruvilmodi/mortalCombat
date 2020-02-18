@@ -66,7 +66,7 @@ class Kratos implements DigiPet{
 
     //DO THIS:  make a getHP function that will return the users current hp
     getHP(){
-        
+        return this.hp;
     }
 }
 
