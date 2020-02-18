@@ -21,7 +21,7 @@ class Kratos implements DigiPet{
     
 
     //DO THIS: have your constructor take in tamName which will be your fighters name in the ring
-    constructor(Kratos){
+    constructor(tamName){
         this.tamName = tamName;
         this.hp = 60;
         console.log(`my name is ${this.tamName}`);
