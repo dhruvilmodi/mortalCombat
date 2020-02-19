@@ -28,16 +28,16 @@ class Kratos implements DigiPet{
 
         //DO THIS:  use 'this' and foods to make an array of OffensiveFoods
         this.foods = [
-            {foodName: "Bhel", foodCat: "grain", damage:6},
-            {foodName: "Sandwich", foodCat: "grain", damage:3},
-            {foodName: "Vadapav", foodCat: "meat", damage:2},
-            {foodName: "Sukhdi", foodCat: "grain", damage:3},
-            {foodName: "Bhaji Pav", foodCat: "grain", damage:3},
-            {foodName: "Chole", foodCat: "meat", damage:3},
-            {foodName: "Cherry", foodCat: "meat", damage:10},
-            {foodName: "Mango", foodCat: "grain", damage:12},
-            {foodName: "Apple", foodCat: "fruit", damage:10},
-            {foodName: "Pineapple", foodCat: "fruit", damage:8},
+            {foodName: "bhel", foodCat: "grain", damage:6},
+            {foodName: "sandwich", foodCat: "grain", damage:3},
+            {foodName: "vadapav", foodCat: "meat", damage:2},
+            {foodName: "sukhdi", foodCat: "grain", damage:3},
+            {foodName: "bhaji Pav", foodCat: "grain", damage:3},
+            {foodName: "chole", foodCat: "meat", damage:3},
+            {foodName: "cherry", foodCat: "meat", damage:10},
+            {foodName: "mango", foodCat: "grain", damage:12},
+            {foodName: "apple", foodCat: "fruit", damage:10},
+            {foodName: "pineapple", foodCat: "fruit", damage:8},
         ]
     }
 
