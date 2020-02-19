@@ -43,7 +43,7 @@ class Kratos implements DigiPet{
 
 
     //DO THIS:  make a function that will return your fighters name
-    getFighterName():string{
+    public getFighterName():string{
         return this.tamName;
     }
 
