@@ -29,7 +29,7 @@ class Kratos implements DigiPet{
         //DO THIS:  use 'this' and foods to make an array of OffensiveFoods
         this.foods = [
             {foodName: "bhel", foodCat: "grain", damage:6},
-            {foodName: "sandwich", foodCat: "grain", damage:3},
+            {foodName: "jalebi", foodCat: "grain", damage:3},
             {foodName: "vadapav", foodCat: "meat", damage:2},
             {foodName: "sukhdi", foodCat: "grain", damage:3},
             {foodName: "bhaji Pav", foodCat: "grain", damage:3},
