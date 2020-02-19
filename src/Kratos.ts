@@ -55,7 +55,8 @@ class Kratos implements DigiPet{
 
     //DO THIS:  make an attack function that will return a random OffensiveFood weapon
     attack():OffensiveFood{
-        return this.foods[Math.floor(Math.random() * this.foods.length)];
+        let foodNum = Math.floor(Math.random() * this.foods.length);
+        return this.foods[foodNum];
     }
 
     //DO THIS:  make a takeDamage function that takes in a number and reduces hp
